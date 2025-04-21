@@ -88,15 +88,22 @@ Supabase Vector (PostgreSQL PGVector extension) or Pinecone (for scalable storag
 
 ```
 
-graph LR
-  A[Sensor/IoT Data] --> B[Supabase Realtime]
-  B --> C[AWS Lambda (Preprocess)]
-  C --> D[PGVector (Embeddings)]
-  D --> E[LangChain + LLM]
-  E --> F[Predictions/Alerts]
-  F --> G[Vercel Frontend]
-  G --> H[User Actions]
-  H --> A
+┌─────────────┐    ┌───────────────┐    ┌─────────────────┐
+│  Sensor/    │    │  Supabase     │    │  AWS Lambda     │
+│  IoT Data   │───>│  Realtime     │───>│  (Preprocess)   │
+└─────────────┘    └───────────────┘    └─────────────────┘
+                                                  │
+                                                  v
+┌─────────────┐    ┌───────────────┐    ┌─────────────────┐
+│  User       │    │  Vercel       │    │  Predictions/   │
+│  Actions    │<───│  Frontend     │<───│  Alerts        │
+└─────────────┘    └───────────────┘    └─────────────────┘
+    ^                                            │
+    │                                            v
+    │        ┌───────────────┐    ┌─────────────────┐
+    └────────│  LangChain    │<────│  PGVector       │
+             │  + LLM        │    │  (Embeddings)   │
+             └───────────────┘    └─────────────────┘
 
 ```
 
