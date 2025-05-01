@@ -10,3 +10,6 @@ The RAG workflow begins with the retrieval component, which uses a dense retriev
 
 By grounding its responses in external knowledge, RAG reduces the risk of generating incorrect or hallucinated information, making it more reliable for real-world applications. This combination of retrieval and generation enables RAG to deliver context-aware, accurate, and informative outputs, bridging the gap between purely generative models and traditional retrieval systems.
 
+## Implementation: NodeJS NLM LLM RAG:
+
+- https://github.com/kukuu/digital-twin-v2/blob/main/nodejs-LLM-implementation.md
