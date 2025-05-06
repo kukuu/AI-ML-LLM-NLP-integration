@@ -5,7 +5,7 @@
 To build an LLM for SPYDER  Digital Twin App  https://digital-twin-v2-chi.vercel.app/ , with the existing architecture, here’s a structured approach leveraging your the stack while adding necessary refiements/components for LLM integration:
 
 
-## Core Dependencies to Add  
+## Core Dependencies to Add   
 
 - For LLM Integration:
  
