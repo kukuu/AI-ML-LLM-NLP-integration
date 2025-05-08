@@ -38,7 +38,7 @@ Supabase Vector (PostgreSQL PGVector extension) or Pinecone (for scalable storag
     - PyTorch/TensorFlow (custom models for anomaly detection) + LangChain Agents (for action recommendations).
 
 ## Implementation Steps
-
+ 
 **Data Flow & LLM Integration**
 
 - Ingest Sensor Data:
