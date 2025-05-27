@@ -7,7 +7,7 @@ To build an LLM for SPYDER  Digital Twin App  https://digital-twin-v2-chi.vercel
  
 ## Core Dependencies to Add   
   
-- For LLM Integration:
+- For LLM Integration: 
   
      - i. LLM Framework:
 
