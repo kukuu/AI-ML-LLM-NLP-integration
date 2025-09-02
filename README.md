@@ -10,7 +10,7 @@ To build an LLM for SPYDER  Digital Twin App  https://www.energytariffscheck.com
 - For LLM Integration: 
    
      - i. LLM Framework: 
-
+ 
         - OpenAI API (GPT-4) or Llama 3 (self-hosted via Hugging Face)    
   
         - LangChain (orchestration) for workflow automation (e.g., connecting to Supabase/Sensors).
