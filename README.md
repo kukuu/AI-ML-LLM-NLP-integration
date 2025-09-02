@@ -119,5 +119,7 @@ Supabase Vector (PostgreSQL PGVector extension) or Pinecone (for scalable storag
 
 ## Node.js e2e implementation (Private repository)
 
-https://github.com/kukuu/digital-twin-v2/blob/main/nodejs-LLM-implementation.md
+- V2 (LLM) **Nut Cracker**: https://github.com/kukuu/digital-twin-v2/blob/main/nodejs-LLM-implementation.md
+
+- V2 (Node) **SPYDER**: https://github.com/kukuu/digital-twin-v2
 
