@@ -8,7 +8,7 @@
 - TensorFlow and PyTorch are both open-source machine learning frameworks used for building and training complex models, especially deep neural networks, with PyTorch being favoured for research and prototyping due to its flexibility, while TensorFlow is often preferred for large-scale production deployment.
 - LLM Framework:
 
-- - OpenAI API (GPT-4) or Llama 3 (self-hosted via Hugging Face)
+  - OpenAI API (GPT-4) or Llama 3 (self-hosted via Hugging Face)
 
 ii. LangChain (orchestration) for workflow automation (e.g., connecting to Supabase/Sensors).
 
