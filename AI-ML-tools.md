@@ -13,5 +13,24 @@
   - LangChain (orchestration) for workflow automation (e.g., connecting to Supabase/Sensors).
 
   - Embedding Models: OpenAI’s text-embedding-3-small or BAAI/bge-small-en-v1.5 (for semantic search).
+ 
+- Vector Database:
+  - Supabase Vector (PostgreSQL PGVector extension) or Pinecone (for scalable storage of embeddings).
+
+  - Data Pipeline:
+
+      - AWS Lambda (triggered by sensor data updates) to preprocess and feed data to the LLM.
+
+      - Supabase Webhooks (to detect new meter readings/events).
+
+      - For Enhanced Digital Twin Features:
+
+  - Real-time Analytics:
+
+    - TimescaleDB (time-series extension for Supabase) to optimize sensor data storage.
+
+- Predictive AI:
+
+    - PyTorch/TensorFlow (custom models for anomaly detection) + LangChain Agents (for action recommendations).
 
 
