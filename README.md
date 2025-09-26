@@ -125,3 +125,4 @@ Supabase Vector (PostgreSQL PGVector extension) or Pinecone (for scalable storag
 
 ## Related resources 
 - Nut Cracker: https://github.com/kukuu/digital-twin-PV4-/blob/main/README.md
+- "Ask JIM" - A Custom Domain AI Engine, ML, LLM, RAG Pipeline: https://github.com/kukuu/ask-JIM
