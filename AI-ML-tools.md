@@ -10,8 +10,8 @@
 
   - OpenAI API (GPT-4) or Llama 3 (self-hosted via Hugging Face)
 
-ii. LangChain (orchestration) for workflow automation (e.g., connecting to Supabase/Sensors).
+  - LangChain (orchestration) for workflow automation (e.g., connecting to Supabase/Sensors).
 
-iii. Embedding Models: OpenAI’s text-embedding-3-small or BAAI/bge-small-en-v1.5 (for semantic search).
+  - Embedding Models: OpenAI’s text-embedding-3-small or BAAI/bge-small-en-v1.5 (for semantic search).
 
 
