@@ -123,3 +123,5 @@ Supabase Vector (PostgreSQL PGVector extension) or Pinecone (for scalable storag
 
 - V2 (Node) **SPYDER**: https://github.com/kukuu/digital-twin-v2
 
+## Related resources 
+- Nut Cracker: https://github.com/kukuu/digital-twin-PV4-/blob/main/README.md
