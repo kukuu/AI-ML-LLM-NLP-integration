@@ -7,7 +7,7 @@
 To build an LLM for SPYDER  Digital Twin App  https://www.energytariffscheck.com/ , with the existing architecture, here’s a structured approach leveraging the stack while adding necessary refiements/components for LLM integration:
 
  
-## Core Dependencies to Add     
+## Core Dependencies to Add      
   
 - For LLM Integration: 
        
